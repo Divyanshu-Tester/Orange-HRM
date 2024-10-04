@@ -1,0 +1,15 @@
+pageObjects: 
+
+Contains Page Object Model (POM) classes. Each class represents a page or component of the application, encapsulating the web elements and actions for that page.
+
+Example: LoginPage.java, HomePage.java.
+
+pageObjects:
+
+Follow the Page Object Model (POM) pattern. 
+For every web page or component, create a corresponding Java class to represent it. 
+
+This class should contain:
+
+1. Web element locators.
+2. Methods that represent user actions on the page.
