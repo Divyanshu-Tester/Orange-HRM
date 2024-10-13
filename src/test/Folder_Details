@@ -1,0 +1,2 @@
+This folder stores configuration files, properties, or any other static resources that are used during testing. 
+Examples include configuration files (config.properties), data files (like Excel files for data-driven testing), and XML files.
