@@ -50,12 +50,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-CrossFunctionalTesting" class="navigator-link ">
-                    <span>C:\Users\Ramita Sambyal\eclipse-workspace\Orange-HRM\Automation\testng.xml</span>
+                    <span>C:\Users\Ramita Sambyal\eclipse-workspace\Orange-HRM\Automation\testngSingleTest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-CrossFunctionalTesting" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,7 @@
                     <div class="method-list-content passed suite-CrossFunctionalTesting">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CrossFunctionalTesting" title="test_Cases.TC_HRM001" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CrossFunctionalTesting" title="test_Cases.TC_HRM001" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-CrossFunctionalTesting" title="test_Cases.Leave.LeaveList_TC_HRM001" class="method navigator-link" hash-for-method="testLeaveListPageWithNoRecords">testLeaveListPageWithNoRecords</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-CrossFunctionalTesting -->
@@ -126,21 +121,16 @@
           <div class="suite-CrossFunctionalTesting-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test_Cases.TC_HRM001</span>
+              <span class="class-name">test_Cases.Leave.LeaveList_TC_HRM001</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
+                  <a name="testLeaveListPageWithNoRecords">
+                  </a> <!-- testLeaveListPageWithNoRecords -->
+                  <span class="method-name">testLeaveListPageWithNoRecords</span>
+                  <em>
+(verify that leave list page loads successfully with no records)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -148,7 +138,7 @@
         </div> <!-- panel CrossFunctionalTesting -->
         <div panel-name="test-xml-CrossFunctionalTesting" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Ramita Sambyal\eclipse-workspace\Orange-HRM\Automation\testng.xml</span>
+            <span class="header-content">C:\Users\Ramita Sambyal\eclipse-workspace\Orange-HRM\Automation\testngSingleTest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,15 +148,9 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;chrome&quot;&gt;
     &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test_Cases.TC_HRM001&quot;/&gt;
+      &lt;class name=&quot;test_Cases.Leave.LeaveList_TC_HRM001&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- chrome --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;firefox&quot;&gt;
-    &lt;parameter name=&quot;browserName&quot; value=&quot;firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;test_Cases.TC_HRM001&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- firefox --&gt;
 &lt;/suite&gt; &lt;!-- CrossFunctionalTesting --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -179,9 +163,6 @@
             <ul>
               <li>
                 <span class="test-name">chrome (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">firefox (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -207,20 +188,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'test_Cases.TC_HRM001')
-data.setCell(0, 3, 8876);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'login')
-data.setCell(1, 2, 'test_Cases.TC_HRM001')
-data.setCell(1, 3, 8046);
+data.setCell(0, 1, 'testLeaveListPageWithNoRecords')
+data.setCell(0, 2, 'test_Cases.Leave.LeaveList_TC_HRM001')
+data.setCell(0, 3, 10196);
 window.suiteTableData['CrossFunctionalTesting']= { tableData: data, tableDiv: 'times-div-CrossFunctionalTesting'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-CrossFunctionalTesting">
               </div> <!-- times-div-CrossFunctionalTesting -->
             </div> <!-- times-div -->
@@ -246,31 +223,15 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test_Cases.TC_HRM001</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test_Cases.Leave.LeaveList_TC_HRM001</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">1433 ms</span>
+                <span class="method-name">testLeaveListPageWithNoRecords</span>
+                <span class="method-start">1384 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">10321 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(firefox)</span>
-                <span class="method-start">10612 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">18457 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">26503 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

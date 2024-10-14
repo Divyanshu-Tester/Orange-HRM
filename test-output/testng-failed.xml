@@ -4,12 +4,12 @@
   <test thread-count="5" name="chrome(failed)">
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="test_Cases.TC_HRM001">
+      <class name="test_Cases.Leave.LeaveList_TC_HRM001">
         <methods>
-          <include name="login"/>
+          <include name="testLeaveListPageWithNoRecords"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- test_Cases.TC_HRM001 -->
+      </class> <!-- test_Cases.Leave.LeaveList_TC_HRM001 -->
     </classes>
   </test> <!-- chrome(failed) -->
 </suite> <!-- Failed suite [CrossFunctionalTesting] -->

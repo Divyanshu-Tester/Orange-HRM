@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import Base.CustomWaits;
 import Base.SetUpDriver;
+import PageObjects.Dashboard.DashboardPage;
 import Resources.PropertyReaderHelper;
 
 public class LoginPage  extends CustomWaits{
@@ -33,14 +34,15 @@ public class LoginPage  extends CustomWaits{
 	public void loadLoginPage() {
 		driver.get(PropertyReaderHelper.getConfigPropertyData("url"));
 	}
-	public void loginToAdmin(String username, String password) throws InterruptedException {
+	public DashboardPage loginToAdmin(String username, String password) throws InterruptedException {
 		System.out.println(username);
 		System.out.println(password);
 		staticWait(1);
 		UserName.sendKeys(username);
 		Password.sendKeys(password);
 		clickLoginBtn.click();
-		
+		DashboardPage dashboardPage=new DashboardPage(driver);
+		return dashboardPage;
 	}
 
 	
