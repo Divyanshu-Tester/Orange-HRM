@@ -1,9 +1,0 @@
-testBase: 
-
-Includes base classes for test setup and teardown, like setting up WebDriver, handling browser configurations, and initializing properties.
-
-Example: BaseTest.java
-
-This is where you initialize WebDriver and manage the test lifecycle (set up, tear down).
-
-You can also manage browser configurations and load environment variables from a properties file.

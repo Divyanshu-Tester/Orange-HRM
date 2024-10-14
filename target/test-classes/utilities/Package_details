@@ -1,6 +1,0 @@
-utilities: This folder holds utility classes for reusable code. This could include classes for handling waits, screenshots, logs, etc.
-
-This folder contains utility functions that are reusable across test scripts. Examples include:
-Wait functions (Explicit Waits, Fluent Waits).
-Methods for taking screenshots.
-
