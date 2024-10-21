@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-CrossFunctionalTesting">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CrossFunctionalTesting" title="test_Cases.Leave.LeaveList_TC_HRM001" class="method navigator-link" hash-for-method="testLeaveListPageWithNoRecords">testLeaveListPageWithNoRecords</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-CrossFunctionalTesting" title="test_Cases.Leave.LeaveListTest" class="method navigator-link" hash-for-method="testLeaveListPageWithRecords">testLeaveListPageWithRecords</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-CrossFunctionalTesting -->
@@ -121,16 +121,16 @@
           <div class="suite-CrossFunctionalTesting-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test_Cases.Leave.LeaveList_TC_HRM001</span>
+              <span class="class-name">test_Cases.Leave.LeaveListTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testLeaveListPageWithNoRecords">
-                  </a> <!-- testLeaveListPageWithNoRecords -->
-                  <span class="method-name">testLeaveListPageWithNoRecords</span>
+                  <a name="testLeaveListPageWithRecords">
+                  </a> <!-- testLeaveListPageWithRecords -->
+                  <span class="method-name">testLeaveListPageWithRecords</span>
                   <em>
-(verify that leave list page loads successfully with no records)                  </em>
+(verify that leave list page loads successfully with records)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -148,7 +148,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;chrome&quot;&gt;
     &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test_Cases.Leave.LeaveList_TC_HRM001&quot;/&gt;
+      &lt;class name=&quot;test_Cases.Leave.LeaveListTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- chrome --&gt;
 &lt;/suite&gt; &lt;!-- CrossFunctionalTesting --&gt;
@@ -190,14 +190,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testLeaveListPageWithNoRecords')
-data.setCell(0, 2, 'test_Cases.Leave.LeaveList_TC_HRM001')
-data.setCell(0, 3, 10196);
+data.setCell(0, 1, 'testLeaveListPageWithRecords')
+data.setCell(0, 2, 'test_Cases.Leave.LeaveListTest')
+data.setCell(0, 3, 19034);
 window.suiteTableData['CrossFunctionalTesting']= { tableData: data, tableDiv: 'times-div-CrossFunctionalTesting'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-CrossFunctionalTesting">
               </div> <!-- times-div-CrossFunctionalTesting -->
             </div> <!-- times-div -->
@@ -212,9 +212,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-CrossFunctionalTesting" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test_Cases.Leave.LeaveListTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testLeaveListPageWithNoRecords</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-CrossFunctionalTesting" class="panel">
@@ -223,14 +230,14 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test_Cases.Leave.LeaveList_TC_HRM001</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test_Cases.Leave.LeaveListTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testLeaveListPageWithNoRecords</span>
-                <span class="method-start">1384 ms</span>
+                <span class="method-name">testLeaveListPageWithRecords</span>
+                <span class="method-start">4136 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

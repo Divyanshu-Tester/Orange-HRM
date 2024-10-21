@@ -36,5 +36,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="/PageObjectModelE2E_2024"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -5,12 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import Base.CustomWaits;
-import Base.SetUpDriver;
 import PageObjects.Dashboard.DashboardPage;
 import Resources.PropertyReaderHelper;
+import Utils.CommonUtils;
+import Utils.SetUpDriver;
 
-public class LoginPage  extends CustomWaits{
+public class LoginPage  extends CommonUtils{
 	
 	public WebDriver driver;
 	
@@ -37,7 +37,7 @@ public class LoginPage  extends CustomWaits{
 	public DashboardPage loginToAdmin(String username, String password) throws InterruptedException {
 		System.out.println(username);
 		System.out.println(password);
-		staticWait(1);
+		staticWait(3);
 		UserName.sendKeys(username);
 		Password.sendKeys(password);
 		clickLoginBtn.click();

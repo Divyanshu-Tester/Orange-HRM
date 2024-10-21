@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import Base.CustomWaits;
+import Utils.CommonUtils;
 
-public class DashboardPage extends CustomWaits{
+public class DashboardPage extends CommonUtils{
 
 	public WebDriver driver;
 
@@ -27,11 +27,12 @@ public class DashboardPage extends CustomWaits{
 	WebElement leaveBtn;
 	
 	public String dashboardLoaded() {
-		explicitWaitElementToVisible(driver,1,dashboard);
+		explicitWaitElementToVisible(driver,2,dashboard);
 		return	dashboard.getText();
 	}
 	
-	public void clickOnLeaveBtn() {
+	public void clickOnLeaveTab() {
+		staticWait(1);
 		leaveBtn.click();
 	}
 
